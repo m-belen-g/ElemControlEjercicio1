@@ -120,7 +120,6 @@ Ahora simularemos la respuesta al sistema a esas dos entradas. Consideraremos qu
 ```{code-cell} ipython3
 X0 = [19,19, 19, 19]
 t,y = ctrl.input_output_response(tclab_sys, T, U, X0)
-
 ```
 
 En $y$ y en $t$ ahora están los valores que toman la salida $y(t) = [T1(t), T2(t)]$, para distintos valores de $t$.
@@ -160,7 +159,7 @@ ax.legend();
     
     La señal de control ingresa en el tiempo t=400, es de la misma dimensión que la perturbación 50% de la Potencia máxima y afecta la temperatura del calentador.
     
-1. Graficar la salida $y$ obtenida de la simulación del sistema. Analizar la respuesta. 
+1. Graficar la salida $y$ obtenida de la simulación del sistema. Analizar la respuesta.
 
 ```{code-cell} ipython3
 fig, ax = plt.subplots(figsize=(12,5))
@@ -179,7 +178,7 @@ ax.legend();
     
     - es correcto usar $Q1$ para controlar $T1$ o es mejor usar $Q2$ para tal fin
     
-  Parece ser mejor $Q2$ para controlar $T1$, sin embargo, aumenta fuertemente la temperatura del segundo calentador, lo cual si bien no se espera controlar esta variable, puede ser un efecto no deseado.
+  Parece ser mejor $Q2$ para controlar $T1$, sin embargo, aumenta fuertemente la temperatura del segundo calentador, lo cual si bien no se espera controlar esta variable, puede ser un efecto no deseado. Al ver que tanto $Q1$ como $Q2$ influyen en el valor de $T1$ se determina que la que produce una mayor variacion en la medida es la ideal, lo cual corresponde al caso de $Q2$.
     
     
 

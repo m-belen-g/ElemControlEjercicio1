@@ -170,10 +170,10 @@ Diagrama de Bloques
 1. Viendo la grafica de las entradas anterior, analizar:
     - Qué fénomino físico se está evaluando si $w$ tiene la forma mostrada en la figura anterior: 
     
-    `Se esta evaluando la respuesta de un sistema mecánico de amortiguamiento frente a la entrada pulso escalón "w" que dura 2,5 segundos.`
+    `Se esta evaluando la respuesta de un sistema mecánico de amortiguamiento frente a la perturbación de un bache "w" que dura 2,5 segundos.`
     - Qué significa que la señal $u$ sea siempre cero:
     
-    `Significa que no se está perturbando al sistema con ninguna fuerza "u".`
+    `Significa que no está actuando el sistema de control con ninguna fuerza "u".`
     
 1. Graficar la salida $y$ obtenida de la simulación del sistema. Analizar la respuesta. ¿Será confortable el viaje en un bus con esa supensión?
 
